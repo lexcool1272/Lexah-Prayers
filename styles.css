@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2f1; /* Light green background */
+    color: #004d40; /* Dark green text color */
+}
+
+header {
+    background-color: #004d40; /* Dark green header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    border-bottom: 2px solid #004d40; /* Green underline for section headings */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left: 4px solid #004d40; /* Green border for blockquotes */
+    padding-left: 15px;
+    margin-left: 0;
+    font-style: italic;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #004d40; /* Green border for form elements */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #004d40; /* Green button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00332b; /* Darker green on hover */
+}
+
+footer {
+    background-color: #004d40; /* Dark green footer */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #e0f2f1; /* Light green for links in footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
